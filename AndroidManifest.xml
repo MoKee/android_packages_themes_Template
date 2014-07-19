@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2014 The MoKee OpenSource Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,12 +18,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.your.theme.template">
 
-    <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
+    <uses-feature android:required="true" android:name="org.mokee.theme" />
 
     <application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Theme Template">
     </application>
 
-    <meta-data android:name="org.cyanogenmod.theme.name" android:value="Theme Template"/>
-    <meta-data android:name="org.cyanogenmod.theme.author" android:value="CyanogenMod" />
+    <meta-data android:name="org.mokee.theme.name" android:value="Theme Template"/>
+    <meta-data android:name="org.mokee.theme.author" android:value="MoKee OpenSource" />
 
 </manifest>

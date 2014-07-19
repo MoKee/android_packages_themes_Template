@@ -4,17 +4,17 @@ There are several entries in addition to the standard Android package informatio
 
 ```
 <uses-feature android:required="true"
-    android:name="org.cyanogenmod.theme" />
+    android:name="org.mokee.theme" />
 ```
 
-This entry indicates that the package should only be installable on devices that support the CM Theme Engine.
+This entry indicates that the package should only be installable on devices that support the MoKee Theme Engine.
 
 ```
 <uses-sdk android:minSdkVersion="19"
     android:targetSdkVersion="19" />
 ```
 
-The CM Theme Engine is only available in versions of CyanogenMod that use SDK v19 and above. This entry will prevent your package from asking for additional unneccesary permissions.
+The MoKee Theme Engine is only available in versions of MoKee OpenSource that use SDK v19 and above. This entry will prevent your package from asking for additional unneccesary permissions.
 
 ```
 <application android:hasCode="false"
@@ -25,10 +25,10 @@ The CM Theme Engine is only available in versions of CyanogenMod that use SDK v1
 This entry will place an item in the Installed Apps list on Android, and sets the app icon to be used (from res/drawable).
 
 ```
-<meta-data android:name="org.cyanogenmod.theme.name"
+<meta-data android:name="org.mokee.theme.name"
     android:value="Theme Name" />
 
-<meta-data android:name="org.cyanogenmod.theme.author"
+<meta-data android:name="org.mokee.theme.author"
     android:value="Your Name" />
 ```
 
